@@ -1,3 +1,20 @@
 * {
    box-sizing: border-box;
 }
+header {
+   display: flex;
+   justify-content: center;
+}
+main {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex-shrink: 0;
+   flex-grow: 1;
+}
+.article {
+   margin: 8px;
+   padding: 16px;
+   background-color: bisque;
+   flex-basis: 30px;
+}
