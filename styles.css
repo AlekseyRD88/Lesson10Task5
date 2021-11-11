@@ -5,9 +5,8 @@ header {
    display: flex;
    justify-content: center;
 }
-body {
+.articles-list {
    display: flex;
-   flex-direction: column;
    flex-wrap: wrap;
    flex-shrink: 1;
    flex-grow: 1;
@@ -16,5 +15,5 @@ body {
    margin: 8px;
    padding: 16px;
    background-color: bisque;
-   flex-basis: 30px;
+   flex-basis: 300px;
 }
