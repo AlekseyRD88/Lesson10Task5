@@ -5,7 +5,7 @@ header {
    display: flex;
    justify-content: center;
 }
-p {
+body {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
